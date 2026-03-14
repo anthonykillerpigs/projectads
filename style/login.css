@@ -1,0 +1,117 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background: #bae6ba;
+background: linear-gradient(180deg, rgba(186, 230, 186, 1) 0%, rgba(34, 255, 0, 1) 100%);
+}
+
+/* CARD */
+
+.login-box{
+
+background:white;
+
+padding:35px;
+
+width:340px;
+
+border-radius:12px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.25);
+
+text-align:center;
+
+animation:fade 0.5s;
+
+}
+
+@keyframes fade{
+
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+
+}
+
+.logo{
+
+width:80px;
+margin-bottom:10px;
+
+}
+
+.titulo{
+
+font-size:22px;
+font-weight:bold;
+margin-bottom:20px;
+
+}
+
+/* INPUTS */
+
+input{
+
+width:100%;
+padding:10px;
+margin:6px 0;
+
+border-radius:8px;
+border:1px solid #ccc;
+
+}
+
+/* BOTÃO */
+
+button{
+
+width:100%;
+padding:10px;
+
+border:none;
+
+background:#166838;
+
+color:white;
+
+font-size:15px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+margin-top:10px;
+
+}
+
+button:hover{
+
+background:#1e8449;
+
+}
+
+.link{
+
+margin-top:12px;
+
+font-size:14px;
+
+color:#27ae60;
+
+cursor:pointer;
+
+}
+
+.link:hover{
+
+text-decoration:underline;
+
+}
